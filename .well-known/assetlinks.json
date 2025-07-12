@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.colemanspears.cuetechniques",
+      "sha256_cert_fingerprints": [
+        "2F:9F:2F:E6:8F:A7:EA:54:B1:A0:C6:DC:70:B1:4F:46:5B:06:03:DF:C2:85:F5:AD:16:34:D0:B2:DF:DA:12:42"
+      ]
+    }
+  }
+]

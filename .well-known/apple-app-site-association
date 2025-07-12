@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "N3B39RLL7C.com.colemanspears.cue",
+        "paths": ["*"]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": ["N3B39RLL7C.com.colemanspears.cue"]
+  },
+  "webcredentials": {
+    "apps": ["N3B39RLL7C.com.colemanspears.cue"]
+  }
+}
