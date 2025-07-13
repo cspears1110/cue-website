@@ -61,6 +61,10 @@ features                                  :
     description                           : Plan, organize, and share your rehearsals with ease using our built-in Planner tool.
     fontawesome_icon_name                 : file
 
+  - title                                 : Deep Link Rehearsal Plans
+    description                           : Quickly scan to open any rehearsal plan directly in the app.
+    fontawesome_icon_name                 : file
+
   - title                                 : # New Feature Title
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
