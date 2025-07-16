@@ -1,5 +1,13 @@
+
 include: 
   - .well-known
+
+#seo
+title                                     : Cue Rehearsal Techniques
+tagline                                   : Take a Cue!
+description                               : The rehearsal pedagogy app for music educators!
+url                                       : https://www.cuetechniques.com
+
 
 #page title
 page_title                                : Cue Rehearsal Techniques                  # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
@@ -20,16 +28,14 @@ app_description                           : The rehearsal pedagogy app for music
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
-
-
 # Information About Yourself
-your_name                                 : Cue Rehearsal Techniques                              
-your_link                                 :                     
-your_city                                 :                             
+your_name                                 : Cue Rehearsal Techniques
+your_link                                 : https://www.cuetechniques.com
+your_city                                 :
 email_address                             : support@cuetechniques.com
 linkedin_username                         :                                           
 linkedin_company                          :                                           
-facebook_username                         :                                           
+facebook_username                         : profile.php?id=61562508405789                                          
 instagram_username                        : 
 twitter_username                          : 
 github_username                           : 
@@ -120,6 +126,9 @@ footer_text_color                         : "#666666"
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :compressed # You might prefer to minify using :compressed
+
+plugins:
+  - jekyll-seo-tag
 
 # Exclude these files from your production _site
 exclude:
