@@ -63,5 +63,26 @@
                 </div>
             </div>
         </div>
+    <script>
+        // Detect user's operating system
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        console.log("User Agent: ", userAgent);
+
+        // iOS detection
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            // Show App Store link, hide Google Play
+            document.querySelector('.appStoreLink').style.display = 'block';
+            document.querySelector('.playStoreLink').style.display = 'none';
+        } else if (/android/i.test(userAgent)) {
+            // Show Google Play link, hide App Store
+            document.querySelector('.appStoreLink').style.display = 'none';
+            document.querySelector('.playStoreLink').style.display = 'block';
+        } else {
+            //For other platforms, you can choose to show both, hide both, or show a message.
+            //For this example, we will show both
+            document.querySelector('.appStoreLink').style.display = 'block';
+            document.querySelector('.playStoreLink').style.display = 'block';
+        }
+    </script>
 </body>
 </html>
