@@ -186,4 +186,4 @@ BY USING SERVICE OR OTHER SERVICES PROVIDED BY US, YOU ACKNOWLEDGE THAT YOU HAVE
 
 Please send your feedback, comments, requests for technical support by email: support@cuetechniques.com.
 
-**These Terms of Service were created for www.cuetechniques.com by PolicyMaker.io on 2025-07-14.**
+_These Terms of Service were created for www.cuetechniques.com by PolicyMaker.io on 2025-07-14._

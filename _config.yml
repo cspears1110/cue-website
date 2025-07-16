@@ -63,7 +63,7 @@ features                                  :
 
   - title                                 : Deep Link Rehearsal Plans
     description                           : Quickly scan to open any rehearsal plan directly in the app.
-    fontawesome_icon_name                 : file
+    fontawesome_icon_name                 : qrcode
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
