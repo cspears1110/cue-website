@@ -8,8 +8,6 @@ carousels:
     - image: /assets/screenshot/5.png
 ---
 
-# Rehearsal Monitor is temporarily unavailable for download, please try again later.
-
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
 # Rehearsal Monitor
